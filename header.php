@@ -6,6 +6,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <!-- fonction essentielle au bon fonctionnement de mon thème wp_head() -->
+    <!-- wp_head() fct qui récupère les scripts et les styles : -->
     <?php wp_head(); ?>
 </head>
     <!-- fct pour obtenir des noms de classes css en fct de la page visitée body_class() -->
