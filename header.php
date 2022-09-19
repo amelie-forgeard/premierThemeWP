@@ -11,5 +11,10 @@
 </head>
     <!-- fct pour obtenir des noms de classes css en fct de la page visitée body_class() -->
 <body <?php body_class(); ?>>
+<header class="header">
+    <a href="<?php echo home_url( '/' ); ?>">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg" alt="Logo">
+    </a>  
+  </header>
 <!-- a fonction wp_body_open() a été ajoutée dans WordPress 5.2 afin de permettre à des extensions d’écrire du code au début du body. C’est utile notamment pour Yoast qui vient y placer le Google Tag Manager et autres codes de scripts.    
 <?php wp_body_open(); ?> -->
